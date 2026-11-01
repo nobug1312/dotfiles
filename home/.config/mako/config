@@ -1,0 +1,17 @@
+font=VT323 15
+background-color=#080808
+text-color=#D8D8D8
+border-color=#303030
+border-size=1
+border-radius=0
+width=320
+height=100
+margin=12
+padding=10
+default-timeout=4000
+ignore-timeout=0
+anchor=top-right
+layer=overlay
+icons=0
+max-visible=4
+sort=descending

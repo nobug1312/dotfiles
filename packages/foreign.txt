@@ -1,0 +1,12 @@
+bibata-cursor-theme-bin
+dotool
+fcitx5-lotus
+goldendict-ng
+google-chrome
+kizami-bin
+nm-sidebar
+pyprland
+rider
+thinkfan
+vicinae
+wallust

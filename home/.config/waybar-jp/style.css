@@ -1,0 +1,111 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "IBM Plex Mono";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#custom-arch,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-monitor,
+#battery {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 17px;
+}
+
+window#waybar {
+  background: rgba(8, 8, 8, 0.97);
+  color: #D8D8D8;
+  border-bottom: 1px solid #303030;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#workspaces {
+  padding: 0 8px;
+}
+
+#workspaces button {
+  color: #777777;
+  background: transparent;
+  padding: 0 8px;
+  margin: 0 2px;
+  border-bottom: 2px solid transparent;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+#workspaces button.active {
+  color: #E5E5E5;
+  background: #3F5135;
+  border-bottom: 2px solid #3F5135;
+}
+
+#workspaces button:hover {
+  color: #FFFFFF;
+  background: #242424;
+}
+
+#clock {
+  color: #D8D8D8;
+  padding: 0 12px;
+  font-size: 18px;
+}
+
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-monitor,
+#cpu,
+#memory,
+#battery,
+#tray {
+  color: #B8B8B8;
+  padding: 0 7px;
+  margin: 0 1px;
+}
+
+#network:hover,
+#bluetooth:hover,
+#pulseaudio:hover,
+#custom-monitor:hover {
+  color: #82966F;
+}
+
+#battery.warning {
+  color: #A6A17A;
+}
+
+#battery.critical:not(.charging) {
+  color: #C06D6D;
+}
+
+tooltip {
+  background: #111111;
+  color: #D8D8D8;
+  border: 1px solid #303030;
+  padding: 4px;
+}
+
+tooltip label {
+  color: #D8D8D8;
+}
+
+#custom-arch {
+    color: #D8D8D8;
+    padding: 0 12px;
+    font-size: 17px;
+}
+
+#custom-arch:hover {
+    color: #82966F;
+    background: #242424;
+}

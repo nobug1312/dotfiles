@@ -1,0 +1,12 @@
+font-family = JetBrains Mono
+font-size = 14
+background-opacity = 0.9
+window-decoration = none
+window-padding-x = 4
+window-padding-y = 4
+confirm-close-surface = false
+mouse-scroll-multiplier = 1
+keybind = ctrl+v=paste_from_clipboard
+copy-on-select = clipboard
+config-file = ?colors.conf
+command = /usr/bin/zsh
